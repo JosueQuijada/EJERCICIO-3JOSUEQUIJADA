@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+header h3 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.texto {
+    font-family: verdana;
+    font-size: 50px;
+}
+
+.texto a {
+    display: block;
+    text-decoration: none;
+}
+
+.texto .amarillo {
+    color: rgb(236, 240, 0);
+}
+
+.texto .amarillo:hover {
+    color: rgb(16, 252, 28);
+}
+
+.texto .violeta {
+    color: rgb(158, 55, 158);
+}
+
+.texto .violeta:hover {
+    color: rgb(252, 16, 16);
+}
